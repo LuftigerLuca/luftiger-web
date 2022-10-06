@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
+    margin: 0;
 }
 
 body {
@@ -22,4 +23,57 @@ body {
 
 .navbar a{
     color: white;
+}
+
+.navbar a:hover{
+    color: #cbdbf6;
+}
+
+#teamspeak-section{
+    background-color: #0a1d3c;
+    box-shadow: 0 0 50px 5px #000000;
+    height: 100vh;
+}
+
+#teamspeak-section h2{
+    color: white;
+    text-align: center;
+}
+
+#ts3-wrapper-wrapper{
+    padding: 5vh 50px;
+}
+
+#ts3-wrapper{
+    display: flex;
+    justify-content: center;
+
+    background-color: #0a1d3c;
+    box-shadow: 0 0 100px 5px black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#ts3-info-wrapper-wrapper{
+    padding: 5vh;
+}
+
+#ts3-info-wrapper{
+    color: white;
+}
+
+#ts3-main-info-wrapper{
+    margin-bottom: 5vh;
+}
+
+.ts3-short-info-wrapper{
+    margin-bottom: 5vh;
+}
+
+.ts3-info-icon-wrapper i{
+    color: #00eaff;
+    display: inline-block;
+    border-radius: 60px;
+    border: solid #00eaff;
+    padding: 0.5em 0.6em;
 }
